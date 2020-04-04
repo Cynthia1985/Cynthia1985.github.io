@@ -1,6 +1,6 @@
 
 // array of words
-var programming_languages = [
+var programmingLanguages = [
 	"python",
 	"javascript",
 	"mongodb",
@@ -17,6 +17,7 @@ var programming_languages = [
 	"ruby"
 ]
 
+// create variables
 let answer = '';
 let maxWrong = 6;
 let mistakes = 0;
@@ -25,10 +26,10 @@ let wordStatus = null;
 
 // randomly the word to guess will be chosen from the array above
 function randomWord() {
-    answer = programming_languages[Math.floor(Math.random() * programming_languages.length)];
+    answer = programmingLanguages[Math.floor(Math.random() * programmingLanguages.length)];
 }
 
-// create the alphabetic buttons
+// create the alphabetic buttons with a method
 function generateButtons() {
     let buttonsHTML = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').map(letter =>
       `
