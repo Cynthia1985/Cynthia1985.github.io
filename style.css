@@ -3,47 +3,41 @@ h1 {
     text-align: center;
     font-size: 40px;
     font-family: fantasy;
-    color: black;
+    color: white;
     font-weight: bolder;
-    letter-spacing: 20px;
-    margin-top: 7em;
-    font-weight: 400px;
-    border: 4px solid black;
+    letter-spacing: 22px;
+    margin-top: 8em;
+    font-weight: 410px;
+    border: 6px solid black;
     background: gray;
     border-radius: 1em;
 }
 
 body {
-    text-align: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-size: cover;
 }
 
-div {
-    font-size: 15px;
-    text-align: center;
-    font-family: fantasy;
-    font-weight: bolder;
-}
-
 .guesses {
-    color: black;
+    color: white;
     font-size: 30px;
     margin-top: 6em;
     margin-bottom: 4em;
-    margin-left: 20em;
-    letter-spacing: 2px;
+    margin-left: 22em;
+    letter-spacing: 3px;
     font-weight: bolder;
+    font-family: fantasy;
 }
 
-img {
-    text-align: center;
+#hangmanPic {
     margin-top: 1em;
     margin-bottom: 3em;
     border-radius: 1em;
     border: 4px solid black;
-    
+    margin-left: 9em;
+    width: 495px;
+    height: 355px;
 }
 
 #keyboard {
@@ -65,8 +59,9 @@ p {
     font-family: fantasy;
     font-size: 30px;
     font-weight: bolder;
-    margin-left: 22em;
-    letter-spacing: 1px;
+    margin-left: 23em;
+    /* letter-spacing: 1px; */
+    color: white;
 }
 
 .btn-info {
@@ -79,17 +74,19 @@ p {
     padding: 7px 28px;
     letter-spacing: 4px;
     border: 2px solid black;
+    color: white;
 }
 
 /* Tablet break Point */
 @media only screen and (min-width: 768px) {
     body  {
-      text-align: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-size: cover;
+        text-align: center;
     }
-
-    h1 {
-      text-align: center;
-    }
-
-    /* closing media query */
 }
+
+    
+
+
