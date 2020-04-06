@@ -1,52 +1,84 @@
 
 h1 {
     text-align: center;
-    font-size: 20px;
-    background-color: wheat;
-    font-family: fantasy, cursive;
+    font-size: 40px;
+    font-family: fantasy;
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 20px;
+    margin-top: 7em;
+    font-weight: 400px;
+    border: 4px solid black;
+    background: gray;
+    border-radius: 1em;
 }
 
 body {
     text-align: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: 100% 100%;
+    background-size: cover;
 }
 
 div {
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
-    font-family: fantasy, cursive;
+    font-family: fantasy;
+    font-weight: bolder;
 }
 
 .guesses {
-    background-color: wheat;
+    color: black;
+    font-size: 30px;
+    margin-top: 6em;
+    margin-bottom: 4em;
+    margin-left: 20em;
+    letter-spacing: 2px;
+    font-weight: bolder;
 }
 
 img {
     text-align: center;
-    padding-top: 1em;
-    padding-bottom: 0em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border-radius: 1em;
+    border: 4px solid black;
+    
 }
 
 #keyboard {
     cursor: pointer;
-    font-family: fantasy, cursive;
-    background-color: wheat;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 50px;
+    border-radius: 8px;
+    letter-spacing: 20px;
+}
+
+#keyboard:hover {
+    background: gray;
+    border-radius: 1em;
+    border: 1px solid black;
 }
 
 p {
-    font-family: fantasy, cursive;
-    background-color: wheat;
+    font-family: fantasy;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 22em;
+    letter-spacing: 1px;
 }
 
 .btn-info {
     text-align: center;
-    padding-bottom: 1em;
-    padding-bottom: 1em;
     cursor: pointer;
-    background-color: wheat;
-    font-family: fantasy, cursive;
+    background-color: gray;
+    font-family: fantasy;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 7px 28px;
+    letter-spacing: 4px;
+    border: 2px solid black;
 }
 
 /* Tablet break Point */
