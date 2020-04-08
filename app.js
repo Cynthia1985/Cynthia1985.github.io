@@ -1,6 +1,6 @@
 
 // array of words
-var programming_languages = [
+var programmingLanguages = [
 	"python",
 	"javascript",
 	"mongodb",
@@ -26,7 +26,7 @@ let wordStatus = null;
 
 // randomly the word to guess will be chosen from the array above
 function randomWord() {
-  answer = programming_languages[Math.floor(Math.random() * programming_languages.length)];
+  answer = programmingLanguages[Math.floor(Math.random() * programmingLanguages.length)];
 }
 
 // create the alphabetic buttons with a method
