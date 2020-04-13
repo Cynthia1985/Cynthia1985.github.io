@@ -24,6 +24,8 @@ let mistakes = 0;
 let guessed = [];
 let wordStatus = null;
 
+document.getElementById('maxWrong').innerHTML = maxWrong;
+
 // randomly the word to guess will be chosen from the array above
 function randomWord() {
   answer = programmingLanguages[Math.floor(Math.random() * programmingLanguages.length)];
@@ -104,8 +106,6 @@ function reset() {
   updateMistakes();
   generateButtons();
 }
-
-document.getElementById('maxWrong').innerHTML = maxWrong;
 
 randomWord();
 generateButtons();

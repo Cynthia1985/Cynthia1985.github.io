@@ -6,11 +6,11 @@
     <title>Hangman Programming Language</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-image: url('./images/11.png');">
-    <div class="container">
-        <h1 class="text-center">HANGMAN PROGRAMMING LANGUAGE</h1>
+<body>
+      <div class="container">
+        <h1>HANGMAN PROGRAMMING LANGUAGE</h1>
         <div class="guesses">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
-        <div class="text-center">
+        <div>
           <img id='hangmanPic' src="./images/0.jpeg" alt="">
           <p>Guess the Programming Language:</p>
           <p id="wordSpotlight">The word to be guessed goes here</p>
@@ -18,8 +18,6 @@
           <button class="btn btn-info" onClick="reset()">Reset</button>
         </div> 
       </div>
-      
       <script src='app.js'></script>
-    
 </body>
 </html>
